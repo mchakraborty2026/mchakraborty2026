@@ -1,40 +1,60 @@
 # Hi, I'm Mithoon Chakraborty
 
-### Data Analytics | Data Science | Research Analytics
+## Data Analytics | Data Science | Research Analytics
 
 I am currently pursuing an **MS in Information Systems at the University of Nevada, Reno**, with a focus on data science, statistical analysis, machine learning, databases, and research analytics.
 
-My current applied research involves working with **large longitudinal behavioral-health datasets**, including data cleaning, transformation, longitudinal analysis, and statistical modeling to study relationships among behavioral-health outcomes over time.
+I have more than ten years of prior professional experience and have transitioned my career toward **data analytics, applied data science, and research-oriented analytical work**.
+
+My current work involves analyzing large longitudinal behavioral-health datasets using statistical and computational methods. I am also developing practical skills in production-oriented Python, machine learning, Retrieval-Augmented Generation (RAG), embeddings, vector search, APIs, automated testing, and modern AI applications.
+
 
 ## Technical Skills
 
-- **Programming:** Python, R, SQL
-- **Data Analysis:** pandas, NumPy, data cleaning, transformation, exploratory data analysis
-- **Machine Learning:** Regression, classification, random forest, bagging, boosting, model evaluation
-- **Statistics:** Regression analysis, longitudinal modeling, Structural Equation Modeling
-- **Databases:** SQL, relational database design
-- **Research Analytics:** Longitudinal data analysis, Cross-Lagged Panel Modeling
-- **Tools:** Git, GitHub, Jupyter Notebook, R Markdown
+**Programming:** Python, R, SQL
+
+**Data Analysis:** pandas, NumPy, data cleaning, transformation, exploratory data analysis
+
+**Machine Learning:** Logistic Regression, Lasso, Bagging, Random Forest, Gradient Boosting, classification modeling, cross-validation, model evaluation
+
+**Statistical Analysis:** Regression, longitudinal analysis, Structural Equation Modeling, Cross-Lagged Panel Modeling
+
+**Databases:** SQL, relational database design, data management
+
+**AI / RAG:** Retrieval-Augmented Generation, embeddings, semantic search, Sentence Transformers, FAISS, LLM integration
+
+**Development Tools:** Git, GitHub, Jupyter Notebook, R Markdown, pytest, GitHub Actions
+
 
 ## Selected Projects
 
 ### Credit Card Default Classification — Python
 
-A modular machine-learning project for predicting credit card default using **Python, pandas, scikit-learn, and Jupyter Notebook**.
+Developed a modular machine-learning project in **Python** to predict credit card default and compare multiple classification approaches.
 
-The project compares **L1 Logistic Regression, Bagging, Random Forest, and Gradient Boosting** using Accuracy, Recall, Specificity, Precision, and F1 Score.
+The project compares **L1 Logistic Regression, Bagging, Random Forest, and Gradient Boosting** and evaluates model performance using accuracy, recall, specificity, precision, and F1 score.
 
-The Python version is organized into reusable modules for:
+The repository includes reusable Python modules for preprocessing, model development, and evaluation, along with **pytest unit tests and automated testing through GitHub Actions**.
 
-- Data validation and preprocessing
-- Feature transformation
-- Model construction and training
-- Model evaluation
-- Reproducible analysis
-
-**Skills demonstrated:** Python, pandas, scikit-learn, machine-learning pipelines, cross-validation, ensemble methods, model evaluation, modular programming, Git, and GitHub.
+**Skills demonstrated:** Python, pandas, scikit-learn, machine learning, classification, preprocessing pipelines, cross-validation, model evaluation, pytest, Git, and GitHub Actions.
 
 [View Python Project](https://github.com/mchakraborty2026/credit-card-default-classification-python)
+
+---
+
+### Research Document RAG — Python
+
+Built a **Retrieval-Augmented Generation (RAG)** application for retrieving relevant information from research documents using **Python, PyPDF, Sentence Transformers, and FAISS**.
+
+The project extracts text from research PDFs, creates overlapping text chunks, generates semantic embeddings, and retrieves the most relevant passages based on a user's research question.
+
+A free retrieval-only application successfully performs semantic search without requiring a paid LLM API. The project also includes an optional OpenAI-based generation layer for producing grounded answers from retrieved context.
+
+The repository includes modular Python components, **10 automated unit tests**, and continuous integration using **GitHub Actions**.
+
+**Skills demonstrated:** Python, RAG, document processing, embeddings, semantic search, vector search, FAISS, Sentence Transformers, API integration, pytest, Git, and GitHub Actions.
+
+[View RAG Project](https://github.com/mchakraborty2026/research-document-rag-python)
 
 ---
 
@@ -48,9 +68,12 @@ The project compares **Lasso Logistic Regression, Bagging, Random Forest, and Gr
 
 [View R Project](https://github.com/mchakraborty2026/credit-card-default-classification-r)
 
+
 ## Current Research
 
 My current applied research focuses on **longitudinal behavioral-health data analysis**. I work with repeated client assessments across multiple time points and study temporal relationships among behavioral-health outcomes using longitudinal and cross-lagged modeling approaches.
+
+My current analysis examines relationships involving **psychosis-related needs and subsequent suicidal ideation**, while also considering other behavioral-health factors.
 
 This work has strengthened my experience in:
 
@@ -60,6 +83,7 @@ This work has strengthened my experience in:
 - Statistical modeling
 - Research-oriented analytical workflows
 - Interpretation and communication of analytical results
+
 
 ## Currently Developing
 
@@ -75,6 +99,7 @@ I am continuing to strengthen my skills in:
 - Cloud deployment
 - AI-assisted research analytics
 
+
 ## Current Portfolio Direction
 
 I am building a portfolio that demonstrates practical ability across:
@@ -86,6 +111,7 @@ I am building a portfolio that demonstrates practical ability across:
 - Research analytics
 - Reproducible Python workflows
 - Production-oriented development
+- Automated testing and continuous integration
 - RAG and LLM-based applications
 
 My goal is to combine **statistical research, machine learning, large-scale data analysis, and modern AI technologies** to develop useful analytical solutions for research and decision-making.
